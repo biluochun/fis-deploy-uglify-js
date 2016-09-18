@@ -1,16 +1,16 @@
 {
-  "name": "fis-optimizer-uglify-js",
-  "description": "A optimizer for fis to compress js by using uglify-js.",
+  "name": "fis-deploy-uglify-js",
+  "description": "在deploy阶段压缩js代码.",
   "version": "0.2.2",
-  "author": "FIS Team <fis@baidu.com>",
-  "homepage": "http://fis.baidu.com/",
+  "author": "imconfig <982748666@qq.com>",
+  "homepage": "https://github.com/biluochun/fis-deploy-uglify-js",
   "keywords": [
     "fis"
   ],
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/fis-dev/fis-optimizer-uglify-js.git"
+    "url": "https://github.com/biluochun/fis-deploy-uglify-js"
   },
   "engines": {
     "node": ">= 0.8.0"
