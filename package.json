@@ -1,7 +1,7 @@
 {
   "name": "fis-deploy-uglify-js",
   "description": "在deploy阶段压缩js代码.",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "author": "imconfig <982748666@qq.com>",
   "homepage": "https://github.com/biluochun/fis-deploy-uglify-js",
   "keywords": [
