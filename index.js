@@ -56,8 +56,14 @@ function uglify(content, file, conf) {
   return ret.code;
 }
 
-module.exports = function(content, file, conf){
+module.exports = function(options, modified, total, next){
+  Object.keys(modified).forEach(function(file) {
+    file._content = deal(file._content, file, options);
+  });
+  next();
+};
 
+function deal(content, file, conf){
   try {
     content = uglify(content, file, conf);
   } catch (e) {
